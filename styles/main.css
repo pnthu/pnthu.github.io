@@ -1511,7 +1511,7 @@ fieldset[disabled]
 }
 
 .btn-primary {
-  background-color: #378C3F;
+  background-color: #2BAAE0;
   color: #FFFFFF;
 }
 
@@ -1519,7 +1519,7 @@ fieldset[disabled]
 .show > .btn-primary.dropdown-toggle,
 .show > .btn-primary.dropdown-toggle:focus,
 .show > .btn-primary.dropdown-toggle:hover {
-  background-color: #40a249;
+  background-color: #00BFFF;
   color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -2594,16 +2594,16 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(55, 140, 63, 0.4);
+  background: rgba(82,183,255,0.4);
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #378C3F;
+  background: #2BAAE0;
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #378C3F;
+  color: #2BAAE0;
 }
 
 .progress-container.progress-info .progress {
@@ -2624,12 +2624,12 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-success .progress-bar {
-  background: #18ce0f;
+  background: #87CEFA;
 }
 
 .progress-container.progress-success .progress-value,
 .progress-container.progress-success .progress-badge {
-  color: #18ce0f;
+  color: #87CEFA;
 }
 
 .progress-container.progress-warning .progress {
@@ -2695,8 +2695,8 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .badge-success {
-  border-color: #18ce0f;
-  color: #18ce0f;
+  border-color: #2CA8FF;
+  color: #2CA8FF;
 }
 
 .badge-warning {
@@ -2826,7 +2826,7 @@ small {
 }
 
 a {
-  color: #378C3F;
+  color: #2BAAE0;
 }
 
 a:hover, a:focus {
@@ -3098,7 +3098,7 @@ body {
 }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color: #378C3F;
+  background-color: #2BAAE0;
 }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active, .nav-pills.nav-pills-info .nav-item .nav-link.active:focus, .nav-pills.nav-pills-info .nav-item .nav-link.active:hover {
@@ -3398,7 +3398,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #378C3F !important;
+  background-color: #2BAAE0 !important;
 }
 
 .bg-info {
@@ -7202,7 +7202,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .cc-reference .carousel-indicators .active {
-  background-color: #378C3F;
+  background-color: #2BAAE0;
 }
 
 .cc-reference .carousel-inner {
