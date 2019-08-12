@@ -11,18 +11,40 @@
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+	
+	<script>
+		function calAge() {
+			var thisYear = new Date().getFullYear();
+			document.getElementById("age").innerHTML = thisYear - 1999;
+		}
+	</script>
   </head>
   <body id="top"  onload="calAge()">
   
-  <!-- Karma Modal-->
+	<!-- Karma Modal-->
         <div class="container">
             <div style="z-index: 9999" class="modal fade" id="karmaModal" role="dialog">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">													
                         <div class="modal-header">
-                            <h4 class="modal-title">Karma Online Shoes Store</h4>
+                            <h4 class="modal-title ml-4">Karma Online Shoes Store</h4>
 							<div align="right">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:black;">X</button>	
+							</div>	
+						</div>
+						
+						<div class="modal-body">
+							<div class="ml-5 float-left"> <img src="images/t-t-full.png" width="241" height="304"/></div>
+							<div class="ml-5 float-left w-50">
+								<p>A .NET project about an online shoes e-commerce shop done in group of 3 students.</p>
+								<p>Allows users to view shoes based on related information, order shoes, view order history, as well as managing shoes.</p>
+								<p>This website brings convenience to users by using these new technologies:</p>
+								<ul>
+									<li>3-tier architecture</li>
+									<li>MVC .NET Core 2.1</li>
+									<li>AJAX</li>									
+									<li>Amazon remote database</li>
+								</ul>
 							</div>	
 						</div>
 						
@@ -41,14 +63,25 @@
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">                        							
                         <div class="modal-header">
-                            <h4 class="modal-title">T&T Accessories</h4>
+                            <h4 class="modal-title ml-4">T&T Accessories</h4>
 							<div align="right">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:black;">X</button>	
 							</div>						
                         </div>
 						
-						<div class="modal-dialog">
-								<div class=""> <img src="images/t-t-full.png" width="241" height="304"/></div>
+						<div class="modal-body">
+							<div class="ml-5 float-left"> <img src="images/t-t-full.png" width="241" height="304"/></div>
+							<div class="ml-5 float-left w-50">
+								<p>A front-end prototype of an online accessories e-commerce shop.</p>
+								<p>Allows users to view accessories or jewelry based on their categories.</p>
+								<p>Completely handmade using:</p>
+								<ul>
+									<li>HTML</li>
+									<li>CSS</li>
+									<li>Javascript</li>
+									<li>jQuery</li>
+								</ul>
+							</div>	
 						</div>
 						
                         <div class="modal-footer">
@@ -569,13 +602,6 @@
     <script src="js/core/bootstrap.min.js"></script>
     <script src="js/now-ui-kit.js?v=1.1.0"></script>
     <script src="js/aos.js"></script>
-    <script src="scripts/main.js"></script>
-	
-	<script>
-		function calAge() {
-			var thisYear = new Date().getFullYear();
-			document.getElementById("age").innerHTML = thisYear - 1999;
-		}
-	</script>
+    <script src="scripts/main.js"></script>	
   </body>
 </html>
