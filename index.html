@@ -1,390 +1,759 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ngoc Thu Pham</title>
-    <meta name="description" content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience."/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/aos.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles/main.css" rel="stylesheet">
-	
-	<script>
-		function calAge() {
-			var thisYear = new Date().getFullYear();
-			document.getElementById("age").innerHTML = thisYear - 1999;
-		}
-	</script>
+    <meta
+      name="description"
+      content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience."
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200"
+      rel="stylesheet"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/aos.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
   </head>
-  <body id="top"  onload="calAge()">  
-	<!-- Karma Modal-->
-        <div class="container">
-            <div style="z-index: 9999" class="modal fade" id="karmaModal" role="dialog">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">													
-                        <div class="modal-header">
-                            <h4 class="modal-title ml-4">Karma Online Shoes Store</h4>
-							<div align="right">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:black;">X</button>	
-							</div>	
-						</div>						
-						<div class="modal-body">
-							<div class="ml-5 float-left"> <img src="images/karma-full.jpg" width="214" height="438"/></div>
-							<div class="ml-5 float-left w-50">
-								<p>A .NET project about an online shoes e-commerce shop done in group of 3 students.</p>
-								<p>Allows users to view shoes based on related information, order shoes, view order history, as well as managing shoes.</p>
-								<ul>
-									<li>3-tier architecture design using Amazon EC2 web service, Amazon remote database and MVC .NET Core 2.1</li>
-									<li>Friendly interfaces for managing products with DataTable</li>									
-									<li>Faster response time using AJAX and JSON</li>
-								</ul>
-							</div>	
-						</div>						
-                        <div class="modal-footer">
-							<a href="http://ec2-34-204-5-126.compute-1.amazonaws.com" class="btn btn-primary">View Demo	<i class="fa fa-link"></i></a>
-                            <a href="https://github.com/pnthu/ShoesStore" class="btn">View Source	<i class="fa fa-code"></i></a>
-                        </div>
-                    </div>
-                </div>
+  <body id="top">
+    <!-- FCMS Modal-->
+    <div class="container">
+      <div
+        style="z-index: 9999;"
+        class="modal fade"
+        id="fcmsModal"
+        role="dialog"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title ml-4">Food Court Management System</h4>
+              <div align="right">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                  style="color: black;"
+                >
+                  X
+                </button>
+              </div>
             </div>
+            <div class="modal-body">
+              <div class="ml-5 float-left">
+                <img src="images/fcms-home.jpg" width="206" height="371" />
+              </div>
+              <div class="ml-5 float-left w-50">
+                <p>
+                  An e-commerce application done in group of 4 students.
+                </p>
+                <p>
+                  Includes a mobile application and a web administration
+                  application which can be used in food courts.
+                </p>
+                <p>
+                  The mobile application allows customers to view foodstalls,
+                  order foods and view their order history.
+                </p>
+                <p>Technologies and Libraries:</p>
+                <ul>
+                  <li>React Native</li>
+                  <li>Firebase</li>
+                  <li>Fetch API</li>
+                  <li>Nativebase UI</li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a
+                href="https://github.com/pnthu/fcms-mobile"
+                class="btn btn-primary"
+                >View Source <i class="fa fa-code"></i
+              ></a>
+            </div>
+          </div>
         </div>
-		
-	<!-- T&T Modal-->
-        <div class="container">
-            <div style="z-index: 9999" class="modal fade" id="ttModal" role="dialog">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">                        							
-                        <div class="modal-header">
-                            <h4 class="modal-title ml-4">T&T Accessories</h4>
-							<div align="right">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:black;">X</button>	
-							</div>						
-                        </div>						
-						<div class="modal-body">
-							<div class="ml-5 float-left"> <img src="images/t-t-full.png" width="241" height="304"/></div>
-							<div class="ml-5 float-left w-50">
-								<p>A front-end prototype of an online accessories e-commerce shop.</p>
-								<p>Allows users to view accessories or jewelry based on their categories.</p>
-								<p>Completely handmade using:</p>
-								<ul>
-									<li>HTML</li>
-									<li>CSS</li>
-									<li>Javascript</li>
-									<li>jQuery</li>
-								</ul>
-							</div>	
-						</div>						
-                        <div class="modal-footer">
-							<a href="https://pnthu.github.io/t-t-accessories/" class="btn btn-primary">View Demo	<i class="fa fa-link"></i></a>
-                            <a href="https://github.com/pnthu/t-t-accessories" class="btn">View Source	<i class="fa fa-code"></i></a>							
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </div>
+
+    <!-- Karma Modal-->
+    <div class="container">
+      <div
+        style="z-index: 9999;"
+        class="modal fade"
+        id="karmaModal"
+        role="dialog"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title ml-4">Karma Online Shoes Store</h4>
+              <div align="right">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                  style="color: black;"
+                >
+                  X
+                </button>
+              </div>
             </div>
-        </div>	
-  
+            <div class="modal-body">
+              <div class="ml-5 float-left">
+                <img src="images/karma-full.jpg" width="214" height="438" />
+              </div>
+              <div class="ml-5 float-left w-50">
+                <p>
+                  A .NET project about an online shoes e-commerce shop done in
+                  group of 3 students.
+                </p>
+                <p>
+                  Allows users to view shoes based on related information, order
+                  shoes, view order history, as well as managing shoes.
+                </p>
+                <ul>
+                  <li>
+                    3-tier architecture design using Amazon EC2 web service,
+                    Amazon remote database and MVC .NET Core 2.1
+                  </li>
+                  <li>
+                    Friendly interfaces for managing products with DataTable
+                  </li>
+                  <li>Faster response time using AJAX and JSON</li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a
+                href="http://ec2-34-204-5-126.compute-1.amazonaws.com"
+                class="btn btn-primary"
+                >View Demo <i class="fa fa-link"></i
+              ></a>
+              <a href="https://github.com/pnthu/ShoesStore" class="btn"
+                >View Source <i class="fa fa-code"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- T&T Modal-->
+    <div class="container">
+      <div style="z-index: 9999;" class="modal fade" id="ttModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title ml-4">T&T Accessories</h4>
+              <div align="right">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                  style="color: black;"
+                >
+                  X
+                </button>
+              </div>
+            </div>
+            <div class="modal-body">
+              <div class="ml-5 float-left">
+                <img src="images/t-t-full.png" width="241" height="304" />
+              </div>
+              <div class="ml-5 float-left w-50">
+                <p>
+                  A front-end prototype of an online accessories e-commerce
+                  shop.
+                </p>
+                <p>
+                  Allows users to view accessories or jewelry based on their
+                  categories.
+                </p>
+                <p>Completely handmade using:</p>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>jQuery</li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a
+                href="https://pnthu.github.io/t-t-accessories/"
+                class="btn btn-primary"
+                >View Demo <i class="fa fa-link"></i
+              ></a>
+              <a href="https://github.com/pnthu/t-t-accessories" class="btn"
+                >View Source <i class="fa fa-code"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <header>
       <div class="profile-page sidebar-collapse">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+        <nav
+          class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary"
+          color-on-scroll="400"
+        >
           <div class="container">
-            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Home</a>
-              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            <div class="navbar-translate">
+              <a class="navbar-brand" href="#" rel="tooltip">Home</a>
+              <button
+                class="navbar-toggler navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navigation"
+                aria-controls="navigation"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-bar bar1"></span
+                ><span class="navbar-toggler-bar bar2"></span
+                ><span class="navbar-toggler-bar bar3"></span>
+              </button>
             </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navigation"
+            >
               <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
-				<li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#activities">Activities</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#certificates">Certificates</a></li>
-				<li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#education"
+                    >Education</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#work"
+                    >Work Experience</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#certificates"
+                    >Certificates</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#projects"
+                    >Projects</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#activities"
+                    >Activities</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link smooth-scroll" href="#contact">Contact</a>
+                </li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
     </header>
-	
+
     <div class="page-content">
-      <div>	  
-	  <!--Profile Section-->
-		<div class="profile-page">
-			<div class="wrapper">
-				<div class="page-header page-header-small" filter-color="blue">
-					<div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg');"></div>
-					<div class="container">
-						<div class="content-center">
-							<div class="cc-profile-image"><img src="images/thu2.jpg" alt="Profile Image"/></div>
-							<div class="h2 title">Ngoc Thu Pham</div>
-							<p class="category text-white">Front-End Web Developer Intern</p>
-							<a class="btn btn-primary smooth-scroll mr-2" href="mailto:pnthu99@gmail.com" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me	<i class="fa fa-id-badge" aria-hidden="true"></i> </a>	
-							<a class="btn btn-primary" href="files/ThuPham_Resume.pdf" download data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download Resume		<i class="fa fa-download"></i>	</a>
-						</div>
-					</div>      
-				</div>
-			</div>
-		</div>
-	  <!--Info Section-->
-		<div class="section" id="about">
-			<div class="container">
-				<div class="card" data-aos="fade-up" data-aos-offset="10">
-					<div class="row">
-						<div class="col-lg-6 col-md-12">
-							<div class="card-body">
-								<div class="h4 mt-0 title">About</div>
-								<p>Hello! I am Ngoc Thu Pham.</p>
-								<p>I'm a 3rd year student who is about to be a front-end web developer intern.
-								If I had to use 3 words to describe myself, they would be: <strong>eager</strong> to learn, <strong>hard working</strong> and <strong>optimistic</strong>. </p>
-								<p>I believe every opportunity that comes to me is a precious one to work, to try my best. I not only can learn new technologies to improve myself, but I can also dedicate and show my strength. </p>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-12">
-							<div class="card-body">
-								<div class="h4 mt-0 title">Basic Information</div>
-								<div class="row">
-									<div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-									<div class="col-sm-8" id="age"></div>
-								</div>
-								<div class="row mt-3">
-									<div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-									<div class="col-sm-8"><a href="mailto:pnthu99@gmail.com">pnthu99@gmail.com</a></div>
-								</div>
-								<div class="row mt-3">
-									<div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
-									<div class="col-sm-8">+84 90 692 6531</div>
-								</div>
-								<div class="row mt-3">
-									<div class="col-sm-4"><strong class="text-uppercase">Github:</strong></div>
-									<div class="col-sm-8"><a href="https://github.com/pnthu">https://github.com/pnthu</a></div>
-								</div>
-								<div class="row mt-3">
-									<div class="col-sm-4"><strong class="text-uppercase">Skype:</strong></div>
-									<div class="col-sm-8">live:.cid.a350150592b08b3d</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	  <!--Skills Section-->
-		<div class="section" id="skill">
-			<div class="container">
-				<div class="h4 text-center mb-4 title">Programming Skills</div>
-				<div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-					<div class="card-body">
-						<div class="row mt-2">
-							<div class="col-md-3">
-								<div><strong class="text-uppercase">Front-End</strong></div>            
-							</div>
-							<div class="col-md-9">
-								<div>HTML, CSS, JavaScript</div>            
-							</div>
-						</div>
-						<div class="row mt-3">
-							<div class="col-md-3">
-								<div><strong class="text-uppercase">Back-End</strong></div>
-							</div>
-							<div class="col-md-9">
-								<div>Java, .NET Framework</div>
-							</div>
-						</div>
-						<div class="row mt-3">
-							<div class="col-md-3">
-								<div><strong class="text-uppercase">Database</strong></div>
-							</div>
-							<div class="col-md-9">
-								<div>MS SQL Server</div>
-							</div>
-						</div>
-						<div class="row mt-3">
-							<div class="col-md-3">
-								<div><strong class="text-uppercase">Others</strong></div>
-							</div>
-							<div class="col-md-9">
-								<div>Git, Agile Development, Basic Adobe Photoshop</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	  <!--Education Section-->
-		<div class="section" id="education">
-			<div class="container cc-education">
-				<div class="h4 text-center mb-4 title">Education</div>
-				<div class="card">
-					<div class="row">
-						<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-							<div class="card-body cc-education-header">
-								<p>SEP 2017 - NOW</p>
-								<div class="h5">Bachelor's Degree</div>
-							</div>
-						</div>
-						<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-							<div class="card-body">
-								<div class="h5">Bachelor of Software Engineering</div>
-								<p class="category">FPT University</p>
-								<p>Cumulative GPA: 8.15/10 (<a href="images/transcript.png" target="_blank">Transcript</a>)</p>
-								<p>Merits of Good Student of 4/5 terms (GPA &ge; 8.0)</p>
-							</div>
-						</div>
-					</div>
-				</div>    
-			</div>
-		</div>	  
-	  <!--Other Sections-->
-		<div class="section" id="certificates">
-			<div class="container cc-reference">
-				<div class="h4 mb-4 text-center title">Certificates & Courses</div>
-				<div class="card" data-aos="zoom-in">
-					<div class="carousel slide" id="cc-Indicators" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
-							<li data-target="#cc-Indicators" data-slide-to="1"></li>          
-						</ol>
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<div class="row">
-									<div class="col-lg-2 col-md-3 cc-reference-header">
-										<img src="images/devops.jpg" alt="DevOps Certificate"/>
-										<div class="h5 pt-2">DevOps</div>
-										<p class="category">Apr 2019</p>
-									</div>
-									<div class="col-lg-10 col-md-9">
-										<div> <a class="h5" href="https://github.com/pnthu/certificates-and-awards/blob/master/devops-certificate.jpg" target="_blank">Certificate of Completion in Training DevOps (at FPT University) </a></div>
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<div class="row">
-									<div class="col-lg-2 col-md-3 cc-reference-header">
-										<img src="images/mos-badge.png" alt="MOS Certificate"/>
-										<div class="h5 pt-2">MOS</div>
-										<p class="category">Mar 2019</p>
-									</div>
-									<div class="col-lg-10 col-md-9">
-										<div> <a class="h5" href="https://github.com/pnthu/certificates-and-awards/blob/master/mos-certificate.jpg" target="_blank"> Microsoft Office Specialist (MOS) in MS Excel 2013 </a></div>
-									</div>
-								</div>
-							</div>          
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	  <!--Project Section-->
-		<div class="section" id="projects">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 ml-auto mr-auto">
-						<div class="h4 text-center mb-4 title">Projects</div>        
-					</div>
-				</div>
-				<div class="tab-content gallery mt-5">
-					<div class="tab-pane active" id="web-development">
-						<div class="ml-auto mr-auto">
-							<div class="row">
-								<div class="col-md-6">
-									<div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-										<a href="#karmaModal" data-toggle="modal">
-											<figure class="cc-effect"><img src="images/karma.jpg" alt="Karma Project"/>
-												<figcaption>
-													<div class="h4">Karma Online Shoes Store</div>
-													<p>C#.NET Project</p>
-												</figcaption>
-											</figure>
-										</a>
-									</div>              
-								</div>
-								<div class="col-md-6">
-									<div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-										<a href="#ttModal" data-toggle="modal">
-											<figure class="cc-effect"><img src="images/t-t.jpg" alt="T&T Project"/>
-												<figcaption>
-													<div class="h4">T&T Accessories</div>
-													<p>Front-end Web Project</p>
-												</figcaption>
-											</figure>
-										</a>
-									</div>              
-								</div>
-							</div>
-						</div>
-					</div>      
-				</div>
-			</div>
-		</div>
-	  </div>
-	  <!--Activities Section-->
-		<div class="section" id="activities">
-			<div class="container cc-experience">
-				<div class="h4 text-center mb-4 title">Student Activities</div>
-				<div class="card">
-					<div class="row">
-						<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-							<div class="card-body cc-experience-header">
-								<p>Dec 2017 - May 2018</p>
-								<div class="h5">Personal Development Program Department</div>
-							</div>
-						</div>
-						<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-							<div class="card-body">
-								<div class="h5">Collaborator of PR Team</div>
-								<ul>
-									<li class="mb-3">Member of “48-Hour Movement Spring - 2018” Organizers</li>
-									<li class="mb-3">Wrote posts about university’s news, events, people,…</li>
-									<li>Participated in organizing university’s events: Spring Fair 2018, Thanking Party,…</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>    
-			</div>
-		</div>
-	  <!--Contact Section-->
-		<div class="section" id="contact">
-			<div class="cc-contact-information">
-				<div class="container">
-					<div class="cc-contact">
-						<div class="row">
-							<div class="col-md-9">
-								<div class="card mb-0" data-aos="zoom-in">
-									<div class="h4 text-center title">Contact Information</div>
-										<div class="row">
-											<div class="col-sm-6 pl-5">
-												<div class="card-body">
-													<p class="mb-0"><strong>Address</strong></p>
-													<p class="pb-2">Ho Chi Minh City, Vietnam</p>
-													<p class="mb-0"><strong>Email</strong></p>
-													<p><a href="mailto:pnthu99@gmail.com">pnthu99@gmail.com</a></p>                    
-												</div>
-											</div>
-											<div class="col-md-6 pl-5">
-												<div class="card-body">                    
-													<p class="mb-0"><strong>Phone</strong></p>
-													<p class="pb-2">+84 90 692 6531</p>
-													<p class="mb-0"><strong>Skype</strong></p>
-													<p>live:.cid.a350150592b08b3d</p>													
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-    <footer class="footer">      
+      <!--Profile Section-->
+      <div class="profile-page">
+        <div class="wrapper">
+          <div class="page-header page-header-small" filter-color="blue">
+            <div
+              class="page-header-image"
+              data-parallax="true"
+              style="background-image: url('images/cc-bg-1.jpg');"
+            ></div>
+            <div class="container">
+              <div class="content-center">
+                <div class="cc-profile-image">
+                  <img src="images/thu2.jpg" alt="Profile Image" />
+                </div>
+                <div class="h2 title">Ngoc Thu Pham</div>
+                <p class="category text-white">
+                  Front-End Web Developer
+                </p>
+                <a
+                  class="btn btn-primary smooth-scroll mr-2"
+                  href="mailto:pnthu99@gmail.com"
+                  data-aos="zoom-in"
+                  data-aos-anchor="data-aos-anchor"
+                  >Hire Me <i class="fa fa-id-badge" aria-hidden="true"></i>
+                </a>
+                <a
+                  class="btn btn-primary"
+                  href="files/ThuPham_Resume.pdf"
+                  download
+                  data-aos="zoom-in"
+                  data-aos-anchor="data-aos-anchor"
+                  >Download Resume <i class="fa fa-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Info Section-->
+      <div class="section" id="about">
+        <div class="container">
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">About</div>
+                  <p>Hello! I am Ngoc Thu Pham.</p>
+                  <p>
+                    I am really interested in developing UI/UX for applications
+                    that can support education. If I had to use 3 words to
+                    describe myself, they would be:
+                    <strong>eager</strong> to learn,
+                    <strong>hard working</strong> and
+                    <strong>optimistic</strong>.
+                  </p>
+                  <p>
+                    I believe every opportunity that comes to me is a precious
+                    one to apply my skills, to try my best. I not only can learn
+                    new technologies to improve myself, but I can also dedicate
+                    and show my strength.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">Basic Information</div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Phone:</strong>
+                    </div>
+                    <div class="col-sm-8">+84 90 692 6531</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Email:</strong>
+                    </div>
+                    <div class="col-sm-8">
+                      <a href="mailto:pnthu99@gmail.com">pnthu99@gmail.com</a>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Github:</strong>
+                    </div>
+                    <div class="col-sm-8">
+                      <a href="https://github.com/pnthu">github.com/pnthu</a>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">LinkedIn:</strong>
+                    </div>
+                    <div class="col-sm-8">
+                      <a href="https://www.linkedin.com/in/thupham99/"
+                        >linkedin.com/thupham99</a
+                      >
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Skype:</strong>
+                    </div>
+                    <div class="col-sm-8">live:.cid.a350150592b08b3d</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Skills Section-->
+      <div class="section" id="skill">
+        <div class="container">
+          <div class="h4 text-center mb-4 title">Programming Skills</div>
+          <div
+            class="card"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
+            <div class="card-body">
+              <div class="row mt-2">
+                <div class="col-md-3">
+                  <div><strong class="text-uppercase">Front-End</strong></div>
+                </div>
+                <div class="col-md-9">
+                  <div>JavaScript, HTML5, CSS3, Bootstrap</div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-md-3">
+                  <div>
+                    <strong class="text-uppercase">Tools / Frameworks</strong>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <div>
+                    React.js, TypeScript, MobX.js, React Native, Firebase
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-md-3">
+                  <div><strong class="text-uppercase">Back-End</strong></div>
+                </div>
+                <div class="col-md-9">
+                  <div>Java, .NET Framework</div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-md-3">
+                  <div><strong class="text-uppercase">Database</strong></div>
+                </div>
+                <div class="col-md-9">
+                  <div>MS SQL Server</div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-md-3">
+                  <div><strong class="text-uppercase">Others</strong></div>
+                </div>
+                <div class="col-md-9">
+                  <div>Git, Agile Development, Basic Adobe Photoshop</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Education Section-->
+      <div class="section" id="education">
+        <div class="container cc-education">
+          <div class="h4 text-center mb-4 title">Education</div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-education-header">
+                  <p>SEP 2017 - NOW</p>
+                  <div class="h5">Bachelor's Degree</div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">Bachelor of Software Engineering</div>
+                  <p class="category">FPT University</p>
+                  <p>
+                    Cumulative GPA: 7.98/10 (<a
+                      href="images/transcript.png"
+                      target="_blank"
+                      >Transcript</a
+                    >)
+                  </p>
+                  <p>Merits of Good Student of 4/7 terms (GPA &ge; 8.0)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Work Section-->
+      <div class="section" id="work">
+        <div class="container cc-education">
+          <div class="h4 text-center mb-4 title">Work Experience</div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-education-header">
+                  <p>SEP 2019 - APR 2020</p>
+                  <div class="h5">Grove HR</div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">Software Engineer Intern</div>
+                  <p class="category">Front-end Developer</p>
+                  <ul>
+                    <li class="mb-3">
+                      Developed UI & UX on Dashboard and Time-off module
+                    </li>
+                    <li class="mb-3">
+                      Made improvements on Recruitment module
+                    </li>
+                    <li>
+                      <span style="font-weight: bold;"
+                        >Technologies and libraries:</span
+                      >
+                      React.js, TypeScript, MobX.js, Ant Design, Lodash
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Other Sections-->
+      <div class="section" id="certificates">
+        <div class="container cc-reference">
+          <div class="h4 mb-4 text-center title">Certificates & Courses</div>
+          <div class="card" data-aos="zoom-in">
+            <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  class="active"
+                  data-target="#cc-Indicators"
+                  data-slide-to="0"
+                ></li>
+                <li data-target="#cc-Indicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 cc-reference-header">
+                      <img src="images/devops.jpg" alt="DevOps Certificate" />
+                      <div class="h5 pt-2">DevOps</div>
+                      <p class="category">Apr 2019</p>
+                    </div>
+                    <div class="col-lg-10 col-md-9">
+                      <div>
+                        <a
+                          class="h5"
+                          href="https://github.com/pnthu/certificates-and-awards/blob/master/devops-certificate.jpg"
+                          target="_blank"
+                          >Certificate of Completion in Training DevOps (at FPT
+                          University)
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-3 cc-reference-header">
+                      <img src="images/mos-badge.png" alt="MOS Certificate" />
+                      <div class="h5 pt-2">MOS</div>
+                      <p class="category">Mar 2019</p>
+                    </div>
+                    <div class="col-lg-10 col-md-9">
+                      <div>
+                        <a
+                          class="h5"
+                          href="https://github.com/pnthu/certificates-and-awards/blob/master/mos-certificate.jpg"
+                          target="_blank"
+                        >
+                          Microsoft Office Specialist (MOS) in MS Excel 2013
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Project Section-->
+      <div class="section" id="projects">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 ml-auto mr-auto">
+              <div class="h4 text-center mb-4 title">Projects</div>
+            </div>
+          </div>
+          <div class="tab-content gallery mt-5">
+            <div class="tab-pane active" id="web-development">
+              <div class="ml-auto mr-auto">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a href="#fcmsModal" data-toggle="modal">
+                        <figure class="cc-effect">
+                          <img src="images/fcms-full.jpg" alt="FCMS Project" />
+                          <figcaption>
+                            <div class="h4">Food Court Management System</div>
+                            <p>Software Architecture Design Project</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a href="#ttModal" data-toggle="modal">
+                        <figure class="cc-effect">
+                          <img src="images/t-t.jpg" alt="T&T Project" />
+                          <figcaption>
+                            <div class="h4">T&T Accessories</div>
+                            <p>Front-end Web Project</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div
+                      class="cc-porfolio-image img-raised"
+                      data-aos="fade-up"
+                      data-aos-anchor-placement="top-bottom"
+                    >
+                      <a href="#karmaModal" data-toggle="modal">
+                        <figure class="cc-effect">
+                          <img src="images/karma.jpg" alt="Karma Project" />
+                          <figcaption>
+                            <div class="h4">Karma Online Shoes Store</div>
+                            <p>C#.NET Project</p>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Activities Section-->
+      <div class="section" id="activities">
+        <div class="container cc-experience">
+          <div class="h4 text-center mb-4 title">Student Activities</div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-primary"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-experience-header">
+                  <p>Dec 2017 - May 2018</p>
+                  <div class="h5">Personal Development Program Department</div>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h5">Collaborator of PR Team</div>
+                  <ul>
+                    <li class="mb-3">
+                      Member of “48-Hour Movement Spring - 2018” Organizers
+                    </li>
+                    <li class="mb-3">
+                      Wrote posts about university’s news, events, people,…
+                    </li>
+                    <li>
+                      Participated in organizing university’s events: Spring
+                      Fair 2018, Thanking Party,…
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Contact Section-->
+      <div class="section" id="contact">
+        <div class="cc-contact-information">
+          <div class="container">
+            <div class="cc-contact">
+              <div class="row">
+                <div class="col-md-9">
+                  <div class="card mb-0" data-aos="zoom-in">
+                    <div class="h4 text-center title">Contact Information</div>
+                    <div class="row">
+                      <div class="col-sm-6 pl-5">
+                        <div class="card-body">
+                          <p class="mb-0"><strong>Phone</strong></p>
+                          <p class="pb-2">+84 90 692 6531</p>
+                          <p class="mb-0"><strong>Email</strong></p>
+                          <p>
+                            <a href="mailto:pnthu99@gmail.com"
+                              >pnthu99@gmail.com</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-6 pl-5">
+                        <div class="card-body">
+                          <p class="mb-0"><strong>LinkedIn</strong></p>
+                          <p class="pb-2">
+                            <a href="https://www.linkedin.com/in/thupham99/"
+                              >linkedin.com/thupham99</a
+                            >
+                          </p>
+                          <p class="mb-0"><strong>Skype</strong></p>
+                          <p>live:.cid.a350150592b08b3d</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
       <div class="h4 title text-center">Ngoc Thu Pham</div>
       <div class="text-center text-muted">
-        <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+        <p>
+          &copy; Creative CV. All rights reserved.<br />Design -
+          <a class="credit" href="https://templateflip.com" target="_blank"
+            >TemplateFlip</a
+          >
+        </p>
       </div>
     </footer>
     <script src="js/core/jquery.3.2.1.min.js"></script>
@@ -392,6 +761,6 @@
     <script src="js/core/bootstrap.min.js"></script>
     <script src="js/now-ui-kit.js?v=1.1.0"></script>
     <script src="js/aos.js"></script>
-    <script src="scripts/main.js"></script>	
+    <script src="scripts/main.js"></script>
   </body>
 </html>
